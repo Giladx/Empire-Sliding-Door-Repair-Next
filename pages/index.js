@@ -115,8 +115,8 @@ const Home = (props) => {
                   <img
                     alt="fix sliding glass door"
                     sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-                    src="/photo-1610333684078-c89bd57f2e46-1400w.webp"
-                    srcSet="/photo-1610333684078-c89bd57f2e46-1400w.webp 1200w, /photo-1610333684078-c89bd57f2e46-tablet.webp 800w, /photo-1610333684078-c89bd57f2e46-mobile.webp 480w"
+                    src="/photo-1610333684078-c89bd57f2e462-1400w.webp"
+                    srcSet="/photo-1610333684078-c89bd57f2e462-1400w.webp 1200w, /photo-1610333684078-c89bd57f2e462-tablet.webp 800w, /photo-1610333684078-c89bd57f2e462-mobile.webp 480w"
                     className="thq-img-ratio-4-3 home-feature1-image"
                   />
                   <div className="home-content02 thq-flex-column">
