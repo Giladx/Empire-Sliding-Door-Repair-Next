@@ -405,6 +405,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-text {
+            height: 100px;
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -671,7 +672,7 @@ const Home = (props) => {
           }
           @media (max-width: 1600px) {
             .home-text {
-              height: 70px;
+              height: 80px;
               font-family: Exo 2;
             }
             .home-text04 {
@@ -758,6 +759,9 @@ const Home = (props) => {
             }
             .home-mobile-menu {
               padding: var(--dl-space-space-unit);
+            }
+            .home-text {
+              height: 100%;
             }
             .home-actions {
               width: 100%;
