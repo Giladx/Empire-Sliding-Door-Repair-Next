@@ -7,19 +7,19 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>
-            Empier sliding door repair - Glid through life semalessly
+            Empier sliding door repair Florida - Glid through life semalessly
           </title>
           <meta
             name="description"
-            content="Empire sliding door and glass repair - Quality Service at Great Prices Welcome to Empire Sliding Door Repair, your go-to experts for all sliding door issues. "
+            content="Welcome to Empire Sliding Door Repair Florida, available 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
           />
           <meta
             property="og:title"
-            content="Empier sliding door repair - Glid through life semalessly"
+            content="Empier sliding door repair Florida - Glid through life semalessly"
           />
           <meta
             property="og:description"
-            content="Empire sliding door and glass repair - Quality Service at Great Prices Welcome to Empire Sliding Door Repair, your go-to experts for all sliding door issues. "
+            content="Welcome to Empire Sliding Door Repair Florida, available 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
           />
           <meta
             property="og:image"
@@ -31,8 +31,8 @@ const Home = (props) => {
             <img
               alt="Sliding Door Repair Professionals"
               sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-              src="/empire-1500h.webp"
-              srcSet="/empire-1500h.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
+              src="/empire-1500w.webp"
+              srcSet="/empire-1500w.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
               className="home-image1"
             />
             <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
@@ -43,8 +43,8 @@ const Home = (props) => {
                   <img
                     alt="Sliding Door Repair Professionals"
                     sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-                    src="/empire-1500h.webp"
-                    srcSet="/empire-1500h.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
+                    src="/empire-1500w.webp"
+                    srcSet="/empire-1500w.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
                     className="home-logo"
                   />
                   <div data-thq="thq-close-menu" className="home-close-menu">
@@ -86,9 +86,7 @@ const Home = (props) => {
                 <br></br>
                 <br></br>
               </h1>
-              <h1 className="home-text04 thq-heading-1"></h1>
-              <h1 className="home-text05 thq-heading-1"></h1>
-              <p className="home-text06 thq-body-large">
+              <p className="home-text04 thq-body-large">
                 Glide Through Life Seamlessly
               </p>
               <div className="home-actions"></div>
@@ -99,14 +97,14 @@ const Home = (props) => {
           <div className="home-max-width1 thq-section-max-width">
             <div className="home-section-title thq-flex-row">
               <div className="home-column thq-flex-column">
-                <span className="home-text07 thq-body-small">
+                <span className="home-text05 thq-body-small">
                   Quality Repairs, Exceptional Service
                 </span>
-                <h2 className="home-text08 thq-heading-2">
+                <h2 className="home-text06 thq-heading-2">
                   Sliding door Services
                 </h2>
               </div>
-              <span className="home-text09 thq-body-small">
+              <span className="home-text07 thq-body-small">
                 Discover the key services that make our sliding door repair
                 services stand out.
               </span>
@@ -177,7 +175,7 @@ const Home = (props) => {
                 Get in touch with us today!
               </span>
               <div className="home-content05">
-                <h2 className="home-text11 thq-heading-2">Contact Us</h2>
+                <h2 className="home-text09 thq-heading-2">Contact Us</h2>
               </div>
             </div>
             <div className="home-row1">
@@ -188,10 +186,10 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info">
                     <div className="home-content07">
-                      <h3 className="home-text12 thq-heading-3">
+                      <h3 className="home-text10 thq-heading-3">
                         Empire sliding door repair - Homestead ,Florida
                       </h3>
-                      <p className="home-text13 thq-body-large">
+                      <p className="home-text11 thq-body-large">
                         <span>14037 SW 274th Terr</span>
                         <br></br>
                         <span>Homestead, FL 33032</span>
@@ -215,12 +213,12 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info1">
                     <div className="home-content09">
-                      <h3 className="home-text19 thq-heading-3">
+                      <h3 className="home-text17 thq-heading-3">
                         <span>Empire sliding door repair -</span>
                         <br></br>
                         <span> Maiami ,Florida</span>
                       </h3>
-                      <p className="home-text23 thq-body-large">
+                      <p className="home-text21 thq-body-large">
                         <span>2980 NW 169th Terr</span>
                         <br></br>
                         <span>Miami Gardens, FL 33056</span>
@@ -244,10 +242,10 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info2">
                     <div className="home-content11">
-                      <h3 className="home-text29 thq-heading-3">
+                      <h3 className="home-text27 thq-heading-3">
                         Empire sliding door repair - Boynton Beach ,Florida
                       </h3>
-                      <p className="home-text30 thq-body-large">
+                      <p className="home-text28 thq-body-large">
                         <span>
                           11366 Barca Blvd,
                           <span
@@ -307,7 +305,8 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-image1 {
-            height: 3rem;
+            width: 429px;
+            height: 58px;
           }
           .home-desktop-menu {
             flex: 1;
@@ -415,14 +414,6 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text05 {
-            text-align: center;
-            font-family: 'Exo 2';
-          }
-          .home-text06 {
-            text-align: center;
-            font-family: 'Exo 2';
-          }
           .home-actions {
             gap: var(--dl-space-space-unit);
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -454,13 +445,13 @@ const Home = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
+          .home-text05 {
+            font-family: 'Exo 2';
+          }
+          .home-text06 {
+            font-family: 'Exo 2';
+          }
           .home-text07 {
-            font-family: 'Exo 2';
-          }
-          .home-text08 {
-            font-family: 'Exo 2';
-          }
-          .home-text09 {
             align-self: flex-end;
             font-family: 'Exo 2';
           }
@@ -539,7 +530,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text11 {
+          .home-text09 {
             font-family: 'Exo 2';
           }
           .home-row1 {
@@ -579,12 +570,12 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text12 {
+          .home-text10 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text13 {
+          .home-text11 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -623,12 +614,12 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text19 {
+          .home-text17 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text23 {
+          .home-text21 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -667,12 +658,12 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text29 {
+          .home-text27 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text30 {
+          .home-text28 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -681,17 +672,15 @@ const Home = (props) => {
             font-family: 'Exo 2';
           }
           @media (max-width: 1600px) {
+            .home-image1 {
+              width: 429px;
+              height: 58px;
+            }
             .home-text {
               height: 80px;
               font-family: Exo 2;
             }
             .home-text04 {
-              font-family: Exo 2;
-            }
-            .home-text05 {
-              font-family: Exo 2;
-            }
-            .home-text06 {
               font-family: Exo 2;
             }
             .home-feature1-title {
@@ -705,6 +694,10 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-image1 {
+              width: 354.97px;
+              height: 48px;
+            }
             .home-text {
               text-align: center;
             }
@@ -712,12 +705,6 @@ const Home = (props) => {
               text-align: center;
             }
             .home-text04 {
-              text-align: center;
-            }
-            .home-text05 {
-              text-align: center;
-            }
-            .home-text06 {
               text-align: center;
             }
             .home-section-title {
@@ -750,7 +737,7 @@ const Home = (props) => {
             .home-column {
               width: 100%;
             }
-            .home-text08 {
+            .home-text06 {
               text-align: center;
             }
             .home-row {
