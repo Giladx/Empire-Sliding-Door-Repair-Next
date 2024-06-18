@@ -178,7 +178,6 @@
 }
 .thq-heading-3 {
   font-size: 26px;
-  font-family: STIX Two Text;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -343,7 +342,6 @@
   background-clip: text;
   background-size: 200% 100%;
   background-position: 100%;
-  -webkit-text-fill-color: transparent;
 }
 .thq-link:hover {
   background-position: 0 100%;
