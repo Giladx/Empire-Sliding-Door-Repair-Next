@@ -71,7 +71,9 @@ const Home = (props) => {
         <div className="home-header30 thq-section-padding">
           <img
             alt="Sliding Door Repair Professionals"
-            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fHNsaWRpbmclMjBkb29yc3xlbnwwfHx8fDE3MTg2OTk3MTd8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+            sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+            src="/photo-1497366754035-f200968a6e72-1500w.webp"
+            srcSet="/photo-1497366754035-f200968a6e72-1500w.webp 1200w, /photo-1497366754035-f200968a6e72-tablet.webp 800w, /photo-1497366754035-f200968a6e72-mobile.webp 480w"
             className="home-image"
           />
           <div className="home-container2"></div>
@@ -79,15 +81,15 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-text thq-heading-1">
                 <span className="home-text01">
-                  Welcome to the Empire Sliding Door Repair Florida
+                  Empire Sliding Door Repair Florida
                 </span>
                 <br></br>
-                <span>Glide Through Life Seamlessly</span>
                 <br></br>
               </h1>
-              <p className="home-text05 thq-body-large">
-                Showcase your expertise and attract new clients with our
-                specialized services
+              <h1 className="home-text04 thq-heading-1"></h1>
+              <h1 className="home-text05 thq-heading-1"></h1>
+              <p className="home-text06 thq-body-large">
+                Glide Through Life Seamlessly
               </p>
               <div className="home-actions"></div>
             </div>
@@ -97,14 +99,14 @@ const Home = (props) => {
           <div className="home-max-width1 thq-section-max-width">
             <div className="home-section-title thq-flex-row">
               <div className="home-column thq-flex-column">
-                <span className="home-text06 thq-body-small">
+                <span className="home-text07 thq-body-small">
                   Quality Repairs, Exceptional Service
                 </span>
-                <h2 className="home-text07 thq-heading-2">
+                <h2 className="home-text08 thq-heading-2">
                   Sliding door Services
                 </h2>
               </div>
-              <span className="home-text08 thq-body-small">
+              <span className="home-text09 thq-body-small">
                 Discover the key services that make our sliding door repair
                 services stand out.
               </span>
@@ -114,12 +116,14 @@ const Home = (props) => {
                 <div className="home-feature1 thq-flex-column">
                   <img
                     alt="fix sliding glass door"
-                    src="https://images.unsplash.com/photo-1610333684078-c89bd57f2e46?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM2fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE3MTg2OTk2NTd8MA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                    sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                    src="/photo-1610333684078-c89bd57f2e46-1400w.webp"
+                    srcSet="/photo-1610333684078-c89bd57f2e46-1400w.webp 1200w, /photo-1610333684078-c89bd57f2e46-tablet.webp 800w, /photo-1610333684078-c89bd57f2e46-mobile.webp 480w"
                     className="thq-img-ratio-4-3 home-feature1-image"
                   />
                   <div className="home-content02 thq-flex-column">
                     <h2 className="home-feature1-title thq-heading-3">
-                      fix sliding glass door
+                      Fix sliding glass door
                     </h2>
                     <span className="thq-body-small">
                       Our team consists of highly skilled technicians with years
@@ -130,12 +134,12 @@ const Home = (props) => {
                 <div className="home-feature2 thq-flex-column">
                   <img
                     alt="replace sliding door"
-                    src="https://images.unsplash.com/photo-1574396632235-343dac3993b1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI2fHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE3MTg2OTk2NTd8MA&amp;ixlib=rb-4.0.3&amp;h=300"
+                    src="/photo-1574396632235-343dac3993b1-300h.webp"
                     className="thq-img-ratio-4-3 home-feature2-image"
                   />
                   <div className="home-content03 thq-flex-column">
                     <h2 className="home-feature2-title thq-heading-3">
-                      replace sliding door
+                      Glassdoor repair
                     </h2>
                     <span className="thq-body-small">
                       We understand the urgency of sliding door repairs,
@@ -147,12 +151,12 @@ const Home = (props) => {
                 <div className="home-feature3 thq-flex-column">
                   <img
                     alt="replace sliding door"
-                    src="https://images.unsplash.com/photo-1534430198509-8a3091682aa8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDUwfHxzbGlkaW5nJTIwZG9vcnxlbnwwfHx8fDE3MTg2OTk2Njd8MA&amp;ixlib=rb-4.0.3&amp;h=300"
+                    src="/photo-1534430198509-8a3091682aa8-300h.webp"
                     className="thq-img-ratio-4-3 home-feature3-image"
                   />
                   <div className="home-content04 thq-flex-column">
                     <h2 className="home-feature3-title thq-heading-3">
-                      glassdoor repair
+                      Replace sliding door
                     </h2>
                     <span className="thq-body-small">
                       Customer satisfaction is our top priority. We strive to
@@ -173,7 +177,7 @@ const Home = (props) => {
                 Get in touch with us today!
               </span>
               <div className="home-content05">
-                <h2 className="home-text10 thq-heading-2">Contact Us</h2>
+                <h2 className="home-text11 thq-heading-2">Contact Us</h2>
               </div>
             </div>
             <div className="home-row1">
@@ -184,10 +188,10 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info">
                     <div className="home-content07">
-                      <h3 className="home-text11 thq-heading-3">
+                      <h3 className="home-text12 thq-heading-3">
                         Empire sliding door repair - Homestead ,Florida
                       </h3>
-                      <p className="home-text12 thq-body-large">
+                      <p className="home-text13 thq-body-large">
                         <span>14037 SW 274th Terr</span>
                         <br></br>
                         <span>Homestead, FL 33032</span>
@@ -211,12 +215,12 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info1">
                     <div className="home-content09">
-                      <h3 className="home-text18 thq-heading-3">
+                      <h3 className="home-text19 thq-heading-3">
                         <span>Empire sliding door repair -</span>
                         <br></br>
                         <span> Maiami ,Florida</span>
                       </h3>
-                      <p className="home-text22 thq-body-large">
+                      <p className="home-text23 thq-body-large">
                         <span>2980 NW 169th Terr</span>
                         <br></br>
                         <span>Miami Gardens, FL 33056</span>
@@ -240,10 +244,10 @@ const Home = (props) => {
                   </svg>
                   <div className="home-contact-info2">
                     <div className="home-content11">
-                      <h3 className="home-text28 thq-heading-3">
+                      <h3 className="home-text29 thq-heading-3">
                         Empire sliding door repair - Boynton Beach ,Florida
                       </h3>
-                      <p className="home-text29 thq-body-large">
+                      <p className="home-text30 thq-body-large">
                         <span>
                           11366 Barca Blvd,
                           <span
@@ -406,7 +410,15 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Exo 2';
           }
+          .home-text04 {
+            text-align: center;
+            font-family: 'Exo 2';
+          }
           .home-text05 {
+            text-align: center;
+            font-family: 'Exo 2';
+          }
+          .home-text06 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -441,13 +453,13 @@ const Home = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .home-text06 {
-            font-family: 'Exo 2';
-          }
           .home-text07 {
             font-family: 'Exo 2';
           }
           .home-text08 {
+            font-family: 'Exo 2';
+          }
+          .home-text09 {
             align-self: flex-end;
             font-family: 'Exo 2';
           }
@@ -526,7 +538,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text10 {
+          .home-text11 {
             font-family: 'Exo 2';
           }
           .home-row1 {
@@ -566,12 +578,12 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text11 {
+          .home-text12 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text12 {
+          .home-text13 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -610,12 +622,12 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text18 {
+          .home-text19 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text22 {
+          .home-text23 {
             text-align: center;
             font-family: 'Exo 2';
           }
@@ -654,18 +666,42 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text28 {
+          .home-text29 {
             align-self: stretch;
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-text29 {
+          .home-text30 {
             text-align: center;
             font-family: 'Exo 2';
           }
           .home-address2 {
             text-align: center;
             font-family: 'Exo 2';
+          }
+          @media (max-width: 1600px) {
+            .home-text {
+              height: 88px;
+              font-family: Exo 2;
+            }
+            .home-text04 {
+              font-family: Exo 2;
+            }
+            .home-text05 {
+              font-family: Exo 2;
+            }
+            .home-text06 {
+              font-family: Exo 2;
+            }
+            .home-feature1-title {
+              font-family: Exo 2;
+            }
+            .home-feature2-title {
+              font-family: Exo 2;
+            }
+            .home-feature3-title {
+              font-family: Exo 2;
+            }
           }
           @media (max-width: 991px) {
             .home-text {
@@ -674,7 +710,13 @@ const Home = (props) => {
             .home-text01 {
               text-align: center;
             }
+            .home-text04 {
+              text-align: center;
+            }
             .home-text05 {
+              text-align: center;
+            }
+            .home-text06 {
               text-align: center;
             }
             .home-section-title {
@@ -707,7 +749,7 @@ const Home = (props) => {
             .home-column {
               width: 100%;
             }
-            .home-text07 {
+            .home-text08 {
               text-align: center;
             }
             .home-row {
