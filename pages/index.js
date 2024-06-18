@@ -30,7 +30,9 @@ const Home = (props) => {
           <header data-thq="thq-navbar" className="home-navbar-interactive">
             <img
               alt="Sliding Door Repair Professionals"
-              src="/empire-1500h.png"
+              sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+              src="/empire-1500h.webp"
+              srcSet="/empire-1500h.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
               className="home-image1"
             />
             <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
@@ -40,7 +42,9 @@ const Home = (props) => {
                 <div className="home-top">
                   <img
                     alt="Sliding Door Repair Professionals"
-                    src="/empire-1500h.png"
+                    sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                    src="/empire-1500h.webp"
+                    srcSet="/empire-1500h.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
                     className="home-logo"
                   />
                   <div data-thq="thq-close-menu" className="home-close-menu">
