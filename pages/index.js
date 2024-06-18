@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 const Home = (props) => {
@@ -28,13 +29,17 @@ const Home = (props) => {
         </Head>
         <header className="home-container1">
           <header data-thq="thq-navbar" className="home-navbar-interactive">
-            <img
-              alt="Sliding Door Repair Professionals"
-              sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-              src="/empire-1500w.webp"
-              srcSet="/empire-1500w.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
-              className="home-image1"
-            />
+            <Link href="/">
+              <a className="home-link">
+                <img
+                  alt="Sliding Door Repair Professionals"
+                  sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                  src="/empire-1500w.webp"
+                  srcSet="/empire-1500w.webp 1200w, /empire-tablet.webp 800w, /empire-mobile.webp 480w"
+                  className="home-image1"
+                />
+              </a>
+            </Link>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
             <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
             <div data-thq="thq-mobile-menu" className="home-mobile-menu">
@@ -56,7 +61,7 @@ const Home = (props) => {
                 <nav className="home-links">
                   <span>Home</span>
                   <span>Services</span>
-                  <span className="thq-body-small thq-link">About Us</span>
+                  <span>About Us</span>
                   <span className="thq-body-small thq-link">Contact</span>
                   <span className="thq-body-small thq-link">Link5</span>
                 </nav>
@@ -179,7 +184,10 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-row1">
-              <a href="tel:+13054079566" className="home-link">
+              <a
+                href="tel:+13054079566"
+                className="thq-body-small thq-link home-link1"
+              >
                 <div className="home-content06">
                   <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
@@ -205,7 +213,7 @@ const Home = (props) => {
               </a>
               <a
                 href="tel:+17863482109"
-                className="thq-body-small thq-link home-link1"
+                className="thq-body-small thq-link home-link2"
               >
                 <div className="home-content08">
                   <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
@@ -234,7 +242,7 @@ const Home = (props) => {
               </a>
               <a
                 href="tel:+19542374136"
-                className="thq-body-small thq-link home-link2"
+                className="thq-body-small thq-link home-link3"
               >
                 <div className="home-content10">
                   <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
@@ -304,9 +312,14 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
+          .home-link {
+            display: contents;
+          }
           .home-image1 {
             width: 429px;
+            cursor: pointer;
             height: 58px;
+            text-decoration: none;
           }
           .home-desktop-menu {
             flex: 1;
@@ -539,7 +552,7 @@ const Home = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .home-link {
+          .home-link1 {
             display: contents;
           }
           .home-content06 {
@@ -549,12 +562,16 @@ const Home = (props) => {
             cursor: pointer;
             display: flex;
             padding: var(--dl-space-space-twounits);
+            transition: 0.3s;
             align-items: center;
             border-color: var(--dl-color-theme-neutral-dark);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-imageradius);
             flex-direction: column;
             text-decoration: none;
+          }
+          .home-content06:hover {
+            box-shadow: 5px 5px 10px 0px #afafaf;
           }
           .home-contact-info {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -583,7 +600,7 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
           .home-content08 {
@@ -593,12 +610,16 @@ const Home = (props) => {
             cursor: pointer;
             display: flex;
             padding: var(--dl-space-space-twounits);
+            transition: 0.3s;
             align-items: center;
             border-color: var(--dl-color-theme-neutral-dark);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-imageradius);
             flex-direction: column;
             text-decoration: none;
+          }
+          .home-content08:hover {
+            box-shadow: 5px 5px 10px 0px #afafaf;
           }
           .home-contact-info1 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -627,7 +648,7 @@ const Home = (props) => {
             text-align: center;
             font-family: 'Exo 2';
           }
-          .home-link2 {
+          .home-link3 {
             display: contents;
           }
           .home-content10 {
@@ -637,12 +658,16 @@ const Home = (props) => {
             cursor: pointer;
             display: flex;
             padding: var(--dl-space-space-twounits);
+            transition: 0.3s;
             align-items: center;
             border-color: var(--dl-color-theme-neutral-dark);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-imageradius);
             flex-direction: column;
             text-decoration: none;
+          }
+          .home-content10:hover {
+            box-shadow: 5px 5px 10px 0px #afafaf;
           }
           .home-contact-info2 {
             gap: var(--dl-space-space-oneandhalfunits);
