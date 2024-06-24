@@ -8,19 +8,19 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>
-            Empier sliding door repair Florida - Glid through life semalessly
+            Empire sliding door repair Florida - Glide through life seamlessly
           </title>
           <meta
             name="description"
-            content="Welcome to Empire Sliding Door Repair Florida, available 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
+            content="Welcome to Empire Sliding Door Repair Florida, 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
           />
           <meta
             property="og:title"
-            content="Empier sliding door repair Florida - Glid through life semalessly"
+            content="Empire sliding door repair Florida - Glide through life seamlessly"
           />
           <meta
             property="og:description"
-            content="Welcome to Empire Sliding Door Repair Florida, available 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
+            content="Welcome to Empire Sliding Door Repair Florida, 24/7! Locations: Homestead: +1 (305) 407-9566, Miami: +1 (786) 348-2109, Boynton Beach: +1 (786) 348-2109."
           />
           <meta
             property="og:image"
