@@ -791,10 +791,15 @@ const Home = (props) => {
             .home-navbar-interactive {
               padding: var(--dl-space-space-unit);
             }
+            .home-image1 {
+              width: 70%;
+              height: auto;
+            }
             .home-mobile-menu {
               padding: var(--dl-space-space-unit);
             }
             .home-text {
+              width: 100%;
               height: 100%;
             }
             .home-actions {
