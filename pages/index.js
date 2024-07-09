@@ -290,6 +290,7 @@ const Home = (props) => {
           .home-container {
             width: 100%;
             display: flex;
+            overflow: hidden;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -702,7 +703,6 @@ const Home = (props) => {
               height: 58px;
             }
             .home-text {
-              height: 80px;
               font-family: Exo 2;
             }
             .home-text04 {
@@ -759,6 +759,9 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .home-text {
+              font-size: 35px;
+            }
             .home-column {
               width: 100%;
             }
@@ -806,9 +809,24 @@ const Home = (props) => {
               width: 100%;
               flex-direction: column;
             }
+            .home-max-width1 {
+              width: 100%;
+            }
+            .home-content02 {
+              width: 100%;
+            }
+            .home-content03 {
+              width: 100%;
+            }
+            .home-content04 {
+              width: 100%;
+            }
             .home-actions1 {
               width: 100%;
               flex-direction: column;
+            }
+            .home-contact20 {
+              width: 100%;
             }
             .home-row1 {
               align-items: stretch;
